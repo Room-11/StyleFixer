@@ -1,34 +1,36 @@
-h3 > a {
-    font-family: 'Trebuchet MS', 'Liberation Sans', 'DejaVu Sans', sans-serif !important;
-    font-size: 17px !important;
-    font-weight: bold !important;
-}
+@-moz-document url-prefix("http://stackoverflow.com"), url-prefix("https://stackoverflow.com") {
+    h3 > a {
+        font-family : 'Trebuchet MS', 'Liberation Sans', 'DejaVu Sans', sans-serif !important;
+        font-size   : 17px !important;
+        font-weight : bold !important;
+    }
 
-.post-tag {
-    border-bottom-color: rgb(179, 206, 225) !important;
-    border-right-color: rgb(179, 206, 225) !important;
-}
+    .post-tag {
+        border-bottom-color : rgb(179, 206, 225) !important;
+        border-right-color  : rgb(179, 206, 225) !important;
+    }
 
-.lsep {
-    color: #cccccc !important;
-    font-size: 110% !important;
-    visibility: visible !important;
-}
+    .lsep {
+        color      : #cccccc !important;
+        font-size  : 110% !important;
+        visibility : visible !important;
+    }
 
-div.cp {
-    font-family: Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif !important;
-}
+    div.cp {
+        font-family : Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif !important;
+    }
 
-.votes, .status, .views {
-    font-size: 13px !important;
-    font-weight: normal !important;
-}
+    .votes, .status, .views {
+        font-size   : 13px !important;
+        font-weight : normal !important;
+    }
 
-div.cp > .status {
-    width: 48px !important;
-}
+    div.cp > .status {
+        width : 48px !important;
+    }
 
-.mini-counts {
-    font-size: 20px !important;
-    font-weight: normal !important;
+    .mini-counts {
+        font-size   : 20px !important;
+        font-weight : normal !important;
+    }
 }
