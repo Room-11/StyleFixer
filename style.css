@@ -40,6 +40,11 @@
         font-weight : normal !important;
     }
 
+    /* Questions with favorite tags. */
+    .tagged-interesting {
+        background-color : rgb(255, 245, 222) !important;
+    }
+
     /**
      * Question page.
      */
