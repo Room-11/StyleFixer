@@ -1,0 +1,10 @@
+h3 > a {
+  font-family: 'Trebuchet MS', 'Liberation Sans', 'DejaVu Sans', sans-serif !important;
+  font-size: 17px !important;
+  font-weight: bold !important;
+}
+
+.post-tag {
+    border-bottom-color: rgb(179, 206, 225) !important;
+    border-right-color: rgb(179, 206, 225) !important;
+}
