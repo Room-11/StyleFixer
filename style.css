@@ -8,3 +8,9 @@ h3 > a {
     border-bottom-color: rgb(179, 206, 225) !important;
     border-right-color: rgb(179, 206, 225) !important;
 }
+
+.lsep {
+    color: #cccccc !important;
+    font-size: 110% !important;
+    visibility: visible !important;
+}
