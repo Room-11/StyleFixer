@@ -1,7 +1,7 @@
 h3 > a {
-  font-family: 'Trebuchet MS', 'Liberation Sans', 'DejaVu Sans', sans-serif !important;
-  font-size: 17px !important;
-  font-weight: bold !important;
+    font-family: 'Trebuchet MS', 'Liberation Sans', 'DejaVu Sans', sans-serif !important;
+    font-size: 17px !important;
+    font-weight: bold !important;
 }
 
 .post-tag {
@@ -13,4 +13,22 @@ h3 > a {
     color: #cccccc !important;
     font-size: 110% !important;
     visibility: visible !important;
+}
+
+div.cp {
+    font-family: Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif !important;
+}
+
+.votes, .status, .views {
+    font-size: 13px !important;
+    font-weight: normal !important;
+}
+
+div.cp > .status {
+    width: 48px !important;
+}
+
+.mini-counts {
+    font-size: 20px !important;
+    font-weight: normal !important;
 }
