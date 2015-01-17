@@ -1,21 +1,27 @@
 @-moz-document url-prefix("http://stackoverflow.com"), url-prefix("https://stackoverflow.com") {
+
+    /**
+     * General.
+     */
+
+    /* Tags. */
+    .post-tag {
+        border-bottom-color : rgb(179, 206, 225) !important;
+        border-right-color  : rgb(179, 206, 225) !important;
+    }
+
+    /**
+     * Question list.
+     */
+
+    /* Title links. */
     h3 > a {
         font-family : 'Trebuchet MS', 'Liberation Sans', 'DejaVu Sans', sans-serif !important;
         font-size   : 17px !important;
         font-weight : bold !important;
     }
 
-    .post-tag {
-        border-bottom-color : rgb(179, 206, 225) !important;
-        border-right-color  : rgb(179, 206, 225) !important;
-    }
-
-    .lsep {
-        color      : #cccccc !important;
-        font-size  : 110% !important;
-        visibility : visible !important;
-    }
-
+    /* Votes, answers, views. */
     div.cp {
         font-family : Arial, 'Liberation Sans', 'DejaVu Sans', sans-serif !important;
     }
@@ -30,23 +36,37 @@
     }
 
     div.cp .mini-counts {
-        font-size: 20px !important;
-        font-weight: normal !important;
+        font-size   : 20px !important;
+        font-weight : normal !important;
     }
 
+    /**
+     * Question page.
+     */
+
+    /* Share, edit, close, flag link separator. */
+    .lsep {
+        color      : #cccccc !important;
+        font-size  : 110% !important;
+        visibility : visible !important;
+    }
+
+    /* Question header. Duh. */
     #question-header {
-        padding: 0 !important;
+        padding : 0 !important;
     }
 
     #question-header h1 {
-        margin-bottom: 7px !important;
+        margin-bottom : 7px !important;
     }
 
-    tr:first-child.comment>td {
-        border-top: 1px solid #f0f0f0 !important;
+    /* Comment block. */
+    tr:first-child.comment > td {
+        border-top : 1px solid #f0f0f0 !important;
     }
 
+    /* Code block. */
     pre {
-        font-size: 14px !important;
+        font-size : 14px !important;
     }
 }
