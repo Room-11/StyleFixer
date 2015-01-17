@@ -32,3 +32,11 @@ div.cp > .status {
     font-size: 20px !important;
     font-weight: normal !important;
 }
+
+#question-header {
+    padding: 0 !important;
+}
+
+#question-header h1 {
+    margin-bottom: 7px !important;
+}
