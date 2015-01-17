@@ -40,3 +40,7 @@ div.cp > .status {
 #question-header h1 {
     margin-bottom: 7px !important;
 }
+
+tr:first-child.comment>td {
+    border-top: 1px solid #f0f0f0 !important;
+}
