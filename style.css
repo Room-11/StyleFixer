@@ -45,4 +45,8 @@
     tr:first-child.comment>td {
         border-top: 1px solid #f0f0f0 !important;
     }
+
+    pre {
+        font-size: 14px !important;
+    }
 }
