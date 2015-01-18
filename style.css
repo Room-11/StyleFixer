@@ -9,6 +9,12 @@
         border-bottom-color : rgb(179, 206, 225) !important;
         border-right-color  : rgb(179, 206, 225) !important;
     }
+    
+    /* Buttons. */
+    input[type=submit], input[type=button], .button, a.button:link, a.button:visited, .btn {
+        background-color : #444444 !important;
+        border-color     : #222222 !important;
+    }
 
     /**
      * Question list.
