@@ -9,7 +9,7 @@
         border-bottom-color : rgb(179, 206, 225) !important;
         border-right-color  : rgb(179, 206, 225) !important;
     }
-    
+
     /* Buttons. */
     input[type=submit], input[type=button], .button, a.button:link, a.button:visited, .btn {
         background-color : #444444 !important;
@@ -72,7 +72,17 @@
     }
 
     /* Code. */
-    .post-text code {
+    code {
         font-size : 14px !important;
+    }
+
+    h1 code,
+    h2 code,
+    h3 code {
+        font-size : 0.9em !important;
+    }
+
+    .comment-copy code {
+        font-size : inherit !important;
     }
 }
