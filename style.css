@@ -3,6 +3,11 @@
     /**
      * General.
      */
+     
+    /* font settings */
+    body {
+        font-family: Arial,Liberation Sans,DejaVu Sans,sans-serif;
+    }
 
     /* Tags. */
     .post-tag {
