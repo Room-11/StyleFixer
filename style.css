@@ -6,7 +6,7 @@
      
     /* font settings */
     body {
-        font-family: Arial,Liberation Sans,DejaVu Sans,sans-serif;
+        font-family: Arial,"Liberation Sans","DejaVu Sans",sans-serif; !important;
     }
 
     /* Tags. */
