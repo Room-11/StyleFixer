@@ -3,10 +3,10 @@
     /**
      * General.
      */
-     
+
     /* font settings */
     body {
-        font-family: Arial,"Liberation Sans","DejaVu Sans",sans-serif !important;
+        font-family : Arial, "Liberation Sans", "DejaVu Sans", sans-serif !important;
     }
 
     /* Tags. */
@@ -49,11 +49,6 @@
     div.cp .mini-counts {
         font-size   : 20px !important;
         font-weight : normal !important;
-    }
-
-    /* Questions with favorite tags. */
-    .tagged-interesting {
-        background-color : rgb(255, 245, 222) !important;
     }
 
     /**
