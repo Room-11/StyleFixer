@@ -7,6 +7,7 @@
     /* font settings */
     body {
         font-family : Arial, "Liberation Sans", "DejaVu Sans", sans-serif !important;
+        color       : black !important;
     }
 
     /* Tags. */
@@ -16,21 +17,133 @@
     }
 
     /* Buttons. */
-    input[type=submit], input[type=button], .button, a.button:link, a.button:visited, .btn {
+    input[type=submit], input[type=button], 
+    .button, a.button:link, a.button:visited, .btn {
         background-color : #444444 !important;
         border-color     : #222222 !important;
+    }
+
+    /* links */
+
+    a:visited {
+        color         : #4A6B82 !important;
+    }
+
+    /* frontpage */
+    .summarycount {
+        color         : #808185 !important;
+        text-align    : left !important;
+        font-size     : 315% !important;
+        font-weight   : bold !important;
+    }
+
+    .subheader h1, .subheader h2 {
+        font-size     : 18px !important;
+        line-height   : 34px !important;
+        margin-bottom : 0 !important;
+    }
+
+    .content-padding {
+        margin-top    : 5px !important;
+    }
+
+    /* navigation top */
+
+    .nav {
+        float         : left !important;
+        font-size     : 125% !important;
+    }
+
+    .nav li {
+        float         : left !important;
+        display       : block !important;
+        background    : #777 !important;
+        margin-right  : 7px !important;
+    }
+
+    .nav a {
+        font-size     : 16px !important;
+        background    : #777 !important;
+    }
+
+    .nav ul {
+        margin        : 0 !important;
+    }
+
+    .nav .youarehere,
+    .nav li.youarehere a, .nav a:hover {
+        background    : #F90 !important;
+    }
+
+    .nav.askquestion li {
+        margin-right  : 0 !important;
+    }  
+
+    #hmenus {
+        width         : 724px !important;
+        float         : left !important;
+        padding       : 0px 0 20px 5px !important;
+        width         : 720px !important;
+        top           : 42px !important;
     }
 
     /**
      * Question list.
      */
 
+    h3 {
+        font-family   : 'Trebuchet MS', 'Liberation Sans', 'DejaVu Sans', sans-serif !important;
+        font-size     : 110% !important;
+        font-weight   : bold !important;
+        margin-bottom : 5px !important;
+        line-height   : 1.3 !important;
+    }
+
+    .views {
+        color         : #999 !important;
+        padding-top   : 4px !important;
+        text-align    : center !important;
+    }
+
     /* Title links. */
     h3 > a, .result-link a {
-        font-family : 'Trebuchet MS', 'Liberation Sans', 'DejaVu Sans', sans-serif !important;
-        font-size   : 17px !important;
-        font-weight : bold !important;
+        font-size     : 17px !important;
+        font-weight   : bold !important;
     }
+
+    h3 > a:hover, .result-link a:hover {
+        text-decoration : underline !important;
+    }  
+
+    .answer-hyperlink, .question-hyperlink {
+        padding        : 0 !important;
+        margin         : 0 !important;
+        border         : 0 !important;        
+        vertical-align : baseline !important;    
+    }
+    
+    .excerpt {
+        line-height       : 1.2 !important;
+        padding           : 0 !important;
+        margin            : 0 !important;
+        padding-bottom    : 5px !important;
+        color             : black !important;
+    }    
+
+    /* tags */
+    .post-tag, .post-text .post-tag, .wmd-preview a.post-tag {
+        color             : #3E6D8E !important;
+        background-color  : #E0EAF1 !important;
+        border-bottom     : 1px solid #B3CEE1 !important;
+        border-right      : 1px solid #B3CEE1 !important;
+        padding           : 3px 4px 3px 4px !important;
+        margin            : 2px 2px 2px 0 !important;
+        font-size         : 90% !important;
+        line-height       : 1.4 !important;
+        text-decoration   : none !important;
+        white-space       : nowrap !important;
+        display           : inline-block !important;
+    }  
 
     /* Votes, answers, views. */
     div.cp {
